@@ -97,8 +97,8 @@ smallestIndex = m ;
 
 
 
-System.out.println("Biggest: " + customerFirstName[biggestIndex] + " " + customerLastName[biggestIndex] + " (" + customerAmount[biggestIndex] + ")");
-System.out.println("Smallest: " + customerFirstName[smallestIndex] + " "+ customerLastName[smallestIndex] + " (" + customerAmount[smallestIndex] + ")");
+System.out.println("Biggest: " + customerFirstName[biggestIndex] + " " + customerLastName[biggestIndex] + " (" + String.format("%.2f", (customerAmount[biggestIndex])) + ")");
+System.out.println("Smallest: " + customerFirstName[smallestIndex] + " "+ customerLastName[smallestIndex] + " (" + String.format("%.2f", (customerAmount[smallestIndex])) + ")");
 System.out.println ("Average: " + String.format("%.2f", average));
 }
 }
